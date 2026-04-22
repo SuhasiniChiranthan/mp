@@ -13,5 +13,5 @@
     - name: Copy the artifact to the deployment directory
       ansible.builtin.copy:
         src: /var/lib/jenkins/workspace/hellomaven/target/mproj-1.0-SNAPSHOT.jar
-        dest: /home/output/mproj.jar
+        dest: /home/student/deployment/mproj.jar
         remote_src: yes
